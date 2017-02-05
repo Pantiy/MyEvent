@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <LinearLayout android:id="@+id/event_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <TextView android:id="@+id/isSolved_textView"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:textSize="17dp"
+                  android:layout_marginTop="5dp"
+                  style="?android:listSeparatorTextViewStyle"/>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/event_recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+    <include android:id="@+id/empty_unsolved_event_list"
+        layout="@layout/empty_unsolved_event_list"
+        android:visibility="gone"/>
+
+    <include android:id="@+id/empty_solved_event_list"
+        layout="@layout/empty_solved_event_list"
+        android:visibility="gone"/>
+
+</LinearLayout>

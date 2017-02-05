@@ -1,0 +1,29 @@
+<resources>
+
+    <string name="app_name">My Event</string>
+
+    <string name="title">标题</string>
+    <string name="enter_title">请为事件输入一个标题</string>
+    <string name="plan_time">计划</string>
+    <string name="if_solved">是否完成</string>
+    <string name="solved">已完成</string>
+    <string name="detail">细明</string>
+    <string name="enter_detail">请输入事件细明</string>
+    <string name="unsolved">未完成</string>
+    <string name="add_event">新建</string>
+    <string name="delete_event">删除</string>
+    <string name="show_subtitle">显示数目</string>
+    <string name="hide_subtitle">隐藏数目</string>
+    <string name="pick_date">请选择计划日期</string>
+    <string name="pick_time">请选择计划时间</string>
+    <string name="confirm">确认</string>
+    <string name="cancel">取消</string>
+
+    <string name="subtitle">共有 %1d 项未完成</string>
+    <string name="no_unsolved_event">没有未完成事件</string>
+    <string name="no_solved_event">没有已完成事件</string>
+
+    <string name="share_event_subject">我分享了一个事件</string>
+    <string name="share_event_via">分享这个事件</string>
+
+</resources>
